@@ -5,14 +5,14 @@
 <style>
 body {background-color: white;}
 p {
-  margin-top: 100px;
+ /* margin-top: 75px; */
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 200px;
   font-size: 18px; 
-  font-family: "Futura PT", Futura;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
-#about_me {color:green;font-weight: bold}
+
 
 /* The sidebar menu */
 .sidenav {
@@ -54,17 +54,35 @@ p {
   .sidenav a {font-size: 18px;}
 }
 
+/*Wrapper */
+.wrapper {
+	margin: 0 auto;
+	width:700px;
+}
 
+.headers {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.paragraphs{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 18px;
+}
 </style>
 
 </head>
 <body>
+	
 
-<center>
-<h1 id="about_me" ;">About Me </h1>
-</center>
 
-<p>I’m studying Information Science at the University of Colorado, Boulder. I have a minor in both Architecture and Technology, Arts, and Media. I'm passionate about data driven design. </p>
+<div class="wrapper">
+	<center>
+	<h1 class="headers">About Me</h1>
+	</center>
+	<p class="paragraphs">I’m studying Information Science at the University of Colorado, Boulder. I have a minor in both Architecture and Technology, Arts, and Media. I'm passionate about data driven design.</p>
+	
+</div>	
 
 
 
